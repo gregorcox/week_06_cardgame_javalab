@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaCardLab.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaCardLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaCardLab_main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaCardLab_main.iml" group="JavaCardLab" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaCardLab_test.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaCardLab_test.iml" group="JavaCardLab" />
     </modules>
   </component>
 </project>
