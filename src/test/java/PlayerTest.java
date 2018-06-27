@@ -5,20 +5,23 @@ import static org.junit.Assert.assertEquals;
 
 public class PlayerTest {
 
-    Player player;
+    Player player1;
+    Player player2;
+
 
     @Before
     public void setUp(){
-        player = new Player("Adam");
+        player1 = new Player("Adam");
+        player2 = new Player("John");
     }
 
     @Test
     public void hasName(){
-        assertEquals("Adam", player.getName());
+        assertEquals("Adam", player1.getName());
     }
 
     @Test
     public void handStartsEmpty(){
-        assertEquals(0,player.handCount());
+        assertEquals(0,player1.handCount());
     }
 }
