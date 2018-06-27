@@ -35,8 +35,10 @@ public class Game {
         deal();
         if (player1.hand.remove(0).value() > player2.hand.remove(0).value()) {
             return player1.getName();
-        } else {
+        } else if (player2.hand.remove(0).value() > player1.hand.remove(0).value()) {
             return player2.getName();
+        } else {
+            return "draw";
         }
     }
 

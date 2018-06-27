@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f5d6f42-06b5-4149-b4cd-559034333485" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" afterPath="$PROJECT_DIR$/src/main/java/Game.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -21,7 +20,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5051354">
       <split-first>
         <leaf>
           <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
@@ -100,8 +99,8 @@
           <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Game.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="215">
-                  <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+                <state relative-caret-position="262">
+                  <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -152,7 +151,7 @@
           <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="311">
+                <state relative-caret-position="340">
                   <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -797,35 +796,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GameTest_checkWinner - 2018.06.27 at 14h 36m 15s.xml">
-      <configuration name="GameTest.checkWinner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_checkWinner - 2018.06.27 at 14h 36m 18s.xml">
-      <configuration name="GameTest.checkWinner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_checkWinner - 2018.06.27 at 14h 36m 21s.xml">
-      <configuration name="GameTest.checkWinner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_checkWinner - 2018.06.27 at 14h 36m 25s.xml">
-      <configuration name="GameTest.checkWinner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_checkWinner - 2018.06.27 at 14h 37m 35s.xml">
-      <configuration name="GameTest.checkWinner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_checkWinner - 2018.06.27 at 14h 37m 38s.xml">
-      <configuration name="GameTest.checkWinner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_checkWinner - 2018.06.27 at 14h 38m 26s.xml">
-      <configuration name="GameTest.checkWinner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_checkWinner - 2018.06.27 at 14h 38m 31s.xml">
-      <configuration name="GameTest.checkWinner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GameTest_checkWinner - 2018.06.27 at 14h 38m 34s.xml">
       <configuration name="GameTest.checkWinner" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GameTest_checkWinner - 2018.06.27 at 14h 38m 38s.xml">
       <configuration name="GameTest.checkWinner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_checkWinner - 2018.06.27 at 14h 38m 56s.xml">
+      <configuration name="GameTest.checkWinner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_checkWinner - 2018.06.27 at 14h 54m 13s.xml">
+      <configuration name="GameTest.checkWinner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_checkWinner - 2018.06.27 at 14h 54m 36s.xml">
+      <configuration name="GameTest.checkWinner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_checkWinner - 2018.06.27 at 14h 54m 40s.xml">
+      <configuration name="GameTest.checkWinner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_playerGetsCard - 2018.06.27 at 14h 54m 19s.xml">
+      <configuration name="GameTest.playerGetsCard" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_playerGetsCard - 2018.06.27 at 14h 54m 23s.xml">
+      <configuration name="GameTest.playerGetsCard" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_playerGetsCard - 2018.06.27 at 14h 54m 27s.xml">
+      <configuration name="GameTest.playerGetsCard" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_playerGetsCard - 2018.06.27 at 14h 54m 30s.xml">
+      <configuration name="GameTest.playerGetsCard" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1015,24 +1014,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
+        <state relative-caret-position="340">
           <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#544#545#0" expanded="true" />
             <element signature="e#596#597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
