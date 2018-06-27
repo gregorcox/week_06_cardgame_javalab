@@ -21,6 +21,10 @@ public class Card {
         return this.rank.getValue();
     }
 
+    public Card addCard( RankType rank, SuitType suit){
+        return new Card(rank, suit);
+    }
+
 
 
 
