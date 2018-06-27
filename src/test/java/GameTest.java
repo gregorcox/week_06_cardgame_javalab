@@ -12,13 +12,20 @@ public class GameTest {
 
     @Before
     public void setUp() {
+        deck = new Deck();
+        player1 = new Player("John");
+        player2 = new Player("Kevin");
         game = new Game( player1, player2, deck);
-    }
-
-    @Test
-    public void shuffleIsRandom(){
-        assertEquals(1, game.shuffleDeck());
 
     }
+
+
+  @Test
+    public void playerGetsCard(){
+        game.deal();
+        assertEquals(1, player2.handCount());
+
+  }
+
 
 }

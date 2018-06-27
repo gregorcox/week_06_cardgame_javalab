@@ -1,8 +1,9 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Deck {
 
-    private ArrayList<Card> deckOfCards;
+    public ArrayList<Card> deckOfCards;
 
     public Deck(){
         this.deckOfCards = new ArrayList<>();
@@ -16,9 +17,15 @@ public class Deck {
                 this.deckOfCards.add(card);
             }
         }
+
+    }
+
+    public void shuffleDeck(){
+        Collections.shuffle(deckOfCards);
     }
 
     public int getCardCount() {
         return this.deckOfCards.size();
     }
+
 }
