@@ -17,4 +17,8 @@ public class Deck {
             }
         }
     }
+
+    public int getCardCount() {
+        return this.deckOfCards.size();
+    }
 }
