@@ -31,18 +31,32 @@ public class Game {
 
     }
 
-    public String playGame(){
-        deck.shuffleDeck();
-        Card card1 = deck.deckOfCards.remove(0);
-        Card card2 = deck.deckOfCards.remove(1);
-        player1.hand.add(card1);
-        player2.hand.add(card2);
-        if (card1.value() > card2.value()) {
-            return "Player 1 wins!";
+    public String checkWinner(){
+        deal();
+        if (player1.hand.remove(0).value() > player2.hand.remove(0).value()) {
+            return player1.getName();
         } else {
-            return "Player 2 wins!";
-                }
-            }
+            return player2.getName();
+        }
+    }
+
+    public String playGame(){
+        deal();
+        return checkWinner();
+    }
+
+//    public String playGame(){
+////        deck.shuffleDeck();
+////        Card card1 = deck.deckOfCards.remove(0);
+////        Card card2 = deck.deckOfCards.remove(1);
+////        player1.hand.add(card1);
+////        player2.hand.add(card2);
+//        if (card1.value() > card2.value()) {
+//            return "Player 1 wins!";
+//        } else {
+//            return "Player 2 wins!";
+//                }
+//            }
 
 
 

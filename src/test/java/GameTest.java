@@ -27,5 +27,10 @@ public class GameTest {
 
   }
 
+  @Test
+    public void checkWinner(){
+        assertEquals("Kevin", game.playGame());
+  }
+
 
 }
